@@ -46,6 +46,9 @@ namespace CursoDotNetCore
                 {"Params - Classes e Métodos", Params.Executar},
                 {"Parametros Nomeados - Classes e Métodos", ParametrosNomeados.Executar},
                 {"Getters e Setters - Classes e Métodos", GetSet.Executar},
+                {"Propriedades - Classes e Métodos", Props.Executar},
+                {"Read Only - Classes e Métodos", ReadOnly.Executar},
+                {"Exemplos Com Enum - Classes e Métodos", ExemploEnum.Executar},
             });
 
             central.SelecionarEExecutar();
