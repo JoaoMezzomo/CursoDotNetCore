@@ -49,6 +49,8 @@ namespace CursoDotNetCore
                 {"Propriedades - Classes e Métodos", Props.Executar},
                 {"Read Only - Classes e Métodos", ReadOnly.Executar},
                 {"Exemplos Com Enum - Classes e Métodos", ExemploEnum.Executar},
+                {"Struct - Classes e Métodos", Struct.Executar},
+                {"Struct VS Classe - Classes e Métodos", StructVSClasse.Executar},
             });
 
             central.SelecionarEExecutar();
