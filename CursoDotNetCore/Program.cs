@@ -4,6 +4,7 @@ using CursoDotNetCore.Fundamentos;
 using CursoDotNetCore.EstruturaDeControle;
 using CursoDotNetCore.ClassesEMetodos;
 using CursoDotNetCore.Colecoes;
+using CursoDotNetCore.OO;
 
 namespace CursoDotNetCore
 {
@@ -64,6 +65,9 @@ namespace CursoDotNetCore
                 {"Igualdade - Coleções", Igualdade.Executar},
                 {"Stack - Coleções", ColecaoStack.Executar},
                 {"Dictionary - Coleções", ColecoesDictionary.Executar},
+                //Orientação a Objetos
+                {"Herança - Orientação a Objetos", Heranca.Executar},
+                {"Construtor This - Orientação a Objetos", ConstrutorThis.Executar},
             });
 
             central.SelecionarEExecutar();
