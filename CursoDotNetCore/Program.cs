@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using CursoDotNetCore.Fundamentos;
 using CursoDotNetCore.EstruturaDeControle;
 using CursoDotNetCore.ClassesEMetodos;
+using CursoDotNetCore.Colecoes;
 
 namespace CursoDotNetCore
 {
@@ -51,6 +52,18 @@ namespace CursoDotNetCore
                 {"Exemplos Com Enum - Classes e Métodos", ExemploEnum.Executar},
                 {"Struct - Classes e Métodos", Struct.Executar},
                 {"Struct VS Classe - Classes e Métodos", StructVSClasse.Executar},
+                {"Valor VS Referência - Classes e Métodos", ValorVSReferencia.Executar},
+                {"Parâmetros por Referência - Classes e Métodos", ParametrosPorReferencia.Executar},
+                {"Parâmetro Padrão - Classes e Métodos", ParametroPadrao.Executar},
+                //Coleções
+                {"Array - Coleções", Colecoes.Array.Executar},
+                {"List - Coleções", ColecoesList.Executar},
+                {"ArrayList - Coleções", ColecoesArrayList.Executar},
+                {"ArraySet - Coleções", ColecoesSet.Executar},
+                {"Queue - Coleções", ColecoesQueue.Executar},
+                {"Igualdade - Coleções", Igualdade.Executar},
+                {"Stack - Coleções", ColecaoStack.Executar},
+                {"Dictionary - Coleções", ColecoesDictionary.Executar},
             });
 
             central.SelecionarEExecutar();
