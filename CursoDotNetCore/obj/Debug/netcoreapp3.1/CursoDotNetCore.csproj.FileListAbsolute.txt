@@ -20,3 +20,6 @@ C:\Projetos_GitHub\CursoDotNetCore\CursoDotNetCore\obj\Debug\netcoreapp3.1\Curso
 C:\Projetos_GitHub\CursoDotNetCore\CursoDotNetCore\obj\Debug\netcoreapp3.1\CursoDotNetCore.AssemblyInfo.cs
 C:\Projetos_GitHub\CursoDotNetCore\CursoDotNetCore\obj\Debug\netcoreapp3.1\CursoDotNetCore.dll
 C:\Projetos_GitHub\CursoDotNetCore\CursoDotNetCore\obj\Debug\netcoreapp3.1\CursoDotNetCore.pdb
+C:\Projetos_GitHub\CursoDotNetCore\CursoDotNetCore\bin\Debug\netcoreapp3.1\Encapsulamento.dll
+C:\Projetos_GitHub\CursoDotNetCore\CursoDotNetCore\bin\Debug\netcoreapp3.1\Encapsulamento.pdb
+C:\Projetos_GitHub\CursoDotNetCore\CursoDotNetCore\obj\Debug\netcoreapp3.1\CursoDotNetCore.csproj.CopyComplete

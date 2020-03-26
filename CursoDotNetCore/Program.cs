@@ -5,6 +5,10 @@ using CursoDotNetCore.EstruturaDeControle;
 using CursoDotNetCore.ClassesEMetodos;
 using CursoDotNetCore.Colecoes;
 using CursoDotNetCore.OO;
+using CursoDotNetCore.MetodosEFuncoes;
+using CursoDotNetCore.Excecoes;
+using CursoDotNetCore.API;
+using CursoDotNetCore.TopicosAvancados;
 
 namespace CursoDotNetCore
 {
@@ -13,6 +17,7 @@ namespace CursoDotNetCore
         static void Main(string[] args)
         {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
+
                 //Fundamentos
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Comentários - Fundamentos", Comentarios.Executar},
@@ -29,6 +34,7 @@ namespace CursoDotNetCore
                 {"Operadores de Atribuição - Fundamentos", OperadoresAtribuicao.Executar},
                 {"Operadores Unários - Fundamentos", OperadoresUnarios.Executar},
                 {"Operador Ternário - Fundamentos", OperadorTernario.Executar},
+
                 //Estruturas de Controle
                 {"Estrutura If - Estruturas de Controle", EstruturaIf.Executar},
                 {"Estrutura If Else - Estruturas de Controle", EstruturaIfElse.Executar},
@@ -38,6 +44,7 @@ namespace CursoDotNetCore
                 {"Estrutura Do While - Estruturas de Controle", EstruturaDoWhile.Executar},
                 {"Estrutura For - Estruturas de Controle", EstruturaFor.Executar},
                 {"Estrutura Foreach - Estruturas de Controle", EstruturaForeach.Executar},
+
                 //Classes e Métodos
                 {"Membros - Classes e Métodos", Membros.Executar},
                 {"Construtores - Classes e Métodos", Construtores.Executar},
@@ -56,6 +63,7 @@ namespace CursoDotNetCore
                 {"Valor VS Referência - Classes e Métodos", ValorVSReferencia.Executar},
                 {"Parâmetros por Referência - Classes e Métodos", ParametrosPorReferencia.Executar},
                 {"Parâmetro Padrão - Classes e Métodos", ParametroPadrao.Executar},
+
                 //Coleções
                 {"Array - Coleções", Colecoes.Array.Executar},
                 {"List - Coleções", ColecoesList.Executar},
@@ -65,9 +73,40 @@ namespace CursoDotNetCore
                 {"Igualdade - Coleções", Igualdade.Executar},
                 {"Stack - Coleções", ColecaoStack.Executar},
                 {"Dictionary - Coleções", ColecoesDictionary.Executar},
+
                 //Orientação a Objetos
                 {"Herança - Orientação a Objetos", Heranca.Executar},
                 {"Construtor This - Orientação a Objetos", ConstrutorThis.Executar},
+                {"Encapsulamento - Orientação a Objetos", OO.Encapsulamento.Executar},
+                {"Polimorfismo - Orientação a Objetos", Polimorfismo.Executar},
+                {"Abstração - Orientação a Objetos", Abstrata.Executar},
+                {"Interface - Orientação a Objetos", Interface.Executar},
+                {"Sealed - Orientação a Objetos", Sealed.Executar},
+
+                //Métodos e Funções
+                {"Lambda - Métodos e Funções", ExemploLambda.Executar},
+                {"Lambda com Delegate - Métodos e Funções", LambdasDelegate.Executar},
+                {"Delegate - Métodos e Funções", UsandoDelegate.Executar},
+                {"Delegate Func Anonima - Métodos e Funções", DelegateFuncAnonima.Executar},
+                {"Delegate com Parâmetros - Métodos e Funções", DelegatesComParametros.Executar},
+                {"Métodos de Extensão - Métodos e Funções", MetodosDeExtensao.Executar},
+
+                //Exceções
+                {"Primeira Exceção - Exceções", PrimeiraExcecao.Executar},
+
+                //API
+                {"Primeiro Arquivo - API", PrimeiroArquivo.Executar},
+                {"Lendo Arquivos - API", LendoArquivos.Executar},
+                {"File Info - API", ExemploFileInfo.Executar},
+                {"Diretórios - API", Diretorios.Executar},
+                {"Directory Info - API", ExemploDirectoryInfo.Executar},
+                {"Exemplo Path - API", ExemploPath.Executar},
+                {"Exemplo DateTime - API", ExemploDateTime.Executar},
+                {"Exemplo Time Span - API", ExemploTimeSpan.Executar},
+
+                //Tópicos Avançados
+                {"LINQ1 - Tópicos Avançados", LINQ1.Executar},
+                {"Nullables - Tópicos Avançados", Nullables.Executar},
             });
 
             central.SelecionarEExecutar();
